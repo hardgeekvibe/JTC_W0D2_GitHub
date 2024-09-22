@@ -1,5 +1,10 @@
 def hello_world():
-    return "Hello, Git World!"
+    return "Welcome to Git!"
+
+name = input("What is your name: ")
+
+def greet_person(name):
+    return f"Hello, {name}!"
 
 if __name__ == "__main__":
-    print(hello_world())
+    print(f"{hello_world()}\n{greet_person(name)}")
