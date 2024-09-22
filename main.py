@@ -1,5 +1,5 @@
 def hello_world():
-    return "Hello from Nashid!"
+    return "Welcome to Git!"
 
 name = input("What is your name: ")
 
