@@ -1,5 +1,5 @@
 def hello_world():
-    return "Welcome to Git!"
+    return "Hello from Nashid!"
 
 if __name__ == "__main__":
     print(hello_world())
